@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* font-family: 'Covered By Your Grace', cursive;  */
+/*font-family: 'Manrope', sans-serif;*/
+/*font-family: 'PT Serif', serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/************************    TOP NAGIVATION   ***************************/
+.top-nav {
+    background-color: black;
+}
+
+i#map,
+i#phone,
+i#contact,
+i#clock {
+    color: #c38f67;
+}
+
+span#map,
+span#time {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4375;
+    letter-spacing: 0em;
+    color: #787671;
+}
+
+a#topcontact {
+    text-decoration: none;
+    color: #787671;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4375;
+    letter-spacing: 0em;
+}
+
+span#datee {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4375;
+    letter-spacing: 0em;
+    color: white;
+}
+
+a#login {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4375;
+    letter-spacing: 0em;
+    color: #787671;
+}
+
+a#explore {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4375;
+    letter-spacing: 0em;
+    color: #787671;
+}
+
+a#login,
+i#top-icon {
+    margin-right: 5px;
+    color: #787671;
+}
+
+/************************    MAIN NAGIVATION   ***************************/
+a#home,
+a#about,
+a#services,
+a#projects,
+a#news,
+a#shop {
+    margin-right: 5px;
+}
+
+div#cart {
+    margin-right: 76px;
+}
+
+a#search,
+a#cart {
+    color: #878680;
+}
+
+.offcanvas-header {
+    background-color: #3d3d3d;
+}
+
+a#home {
+    font-weight: 600;
+    color: #1F1E17;
+}
+
+a#about,
+a#services,
+a#projects,
+a#news,
+a#shop,
+a#contact {
+    color: #878680;
+}
+
+nav.navbar.navbar-expand-lg {
+    background-image: url(../images/paper-bg.webp);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    z-index: 999;
+    padding: 0px 0px 20px 0px;
+    margin-bottom: -40px;
+    height: 80px;
+}
+button#search,
+button#cart {
+    border-style: none;
+}
+span#cart-zero{
+    background-color: #4BAF47;
+}
+
+
+/*HOVER*/
+a#home:hover,
+a#about:hover,
+a#services:hover,
+a#projects:hover,
+a#news:hover,
+a#shop:hover,
+a#contact:hover {
+    border-bottom: 2px solid;
+    color: #dec98f;
+    transition: 0.3s;
+}
+
+a#topcontact:hover,
+a#login:hover,
+i#top-icon:hover {
+    color: #dec98f;
+    transition: 0.3s;
+}
+
+i.fa-regular.fa-magnifying-glass:hover,
+i.fa-regular.fa-cart-shopping:hover {
+    color: #c38f67;
+    transition: 0.3s;
+}
+
+a#explore:hover {
+    color: #4BAF47;
+    transition: 0.5s;
+}
+
+a#footer-socmed:hover {
+    background-color: #4BAF47;
+    color: white;
+    transform: rotateY(180deg);
+    transition: 0.5s;
+}
+
+button#buttonsection4:hover {
+    color: white;
+    background-color: #c38f67;
+}
+
+button#buttonhome:hover,
+button.btn.btn-success:hover {
+    border-style: none;
+    background-color: #1F1E17;
+    transition: 1s;
+}
+
+/*END OF HOVER*/
+/************************    SECTION 1    ***************************/
+.carousel-item {
+    min-height: 85vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h6#h6home {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+h1#h1home {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 120px;
+    line-height: 110px;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+p#phome {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 40px;
+}
+
+button#buttonhome {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 15px 50px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    background-color: #4BAF47;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+span#color {
+    color: #EEC044;
+}
+
+img#leaf1 {
+    margin-left: -80px;
+    margin-top: -75px;
+}
+
+img#leaf2 {
+    margin-left: 20px;
+}
+
+div#slide1-text,
+div#slide2-text {
+    padding-left: 50px;
+}
+
+i.fa-thin.fa-circle-arrow-left,
+i.fa-thin.fa-circle-arrow-right {
+    font-size: 50px;
+    opacity: 0.30;
+}
+
+/************************    SECTION 2    ***************************/
+
+p.h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.1em;
+    text-align: inherit;
+    color: #c38f67;
+
+}
+
+p#textsec2 {
+    font-weight: 300;
+    font-size: 48px;
+    font-family: 'PT Serif', serif;
+    text-align: inherit;
+    color: #292929;
+}
+
+p#text2sec2 {
+    color: #242424;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+p#text3sec2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4375;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787671;
+}
+
+figcaption#fruits,
+figcaption#vegetables {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+    text-align: inherit;
+    color: #c38f67;
+
+}
+
+p#text3sec2 {
+    margin-bottom: 60px;
+}
+
+/************************    SECTION 3    ***************************/
+img#g1,
+img#g2,
+img#g3,
+img#g4,
+img#g5,
+img#g6 {
+    display: inline-block;
+}
+
+p.d-flex.justify-content-center {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.16667;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.1em;
+    text-align: inherit;
+    color: #c38f67;
+}
+
+h2.d-flex.justify-content-center {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 1.3;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 0em;
+    text-align: inherit;
+    color: #292929;
+}
+
+/************************    SECTION 4    ***************************/
+h6#h6textsec4 {
+    color: white;
+}
+
+h1#h1sec4 {
+    color: white;
+}
+
+p#psec4 {
+    color: white;
+}
+
+input#section4button {
+    border-style: none;
+    border-radius: 0%;
+}
+
+button#buttonsection4 {
+    border-radius: 0%;
+    background-color: #dec98f;
+    border-style: none;
+    color: black;
+    font-size: 12px;
+}
+
+h6#h6textsec4 {
+    font-size: 12px;
+    line-height: 1.16667;
+    font-family: 'Lato', sans-serif;
+    text-align: inherit;
+    color: #c38f67;
+}
+
+h1#h1sec4 {
+    font-size: 30px;
+    line-height: 1.3;
+    font-family: 'PT Serif', serif;
+    text-align: inherit;
+}
+
+h6#psec4 {
+    font-size: 20px;
+    line-height: 1.4375;
+    font-family: 'Lato', sans-serif;
+    color: #c7c4bb;
+}
+
+input#section4button {
+    background-color: #e5e5e5;
+}
+
+/************************    SECTION 5    ***************************/
+p#g1 {
+    font-family: Georgia, serif;
+    line-height: 35px;
+    color: #95b61d;
+    font-size: 22px;
+}
+
+h2#g2 {
+    font-family: "Port Lligat Sans";
+    color: #333333;
+    font-size: 30px;
+    text-align: center;
+}
+
+span#textsec5 {
+    font-size: 16px;
+    color: #707070;
+    line-height: 24px;
+}
+
+
+/************************    SECTION 6    **********style="background-image: url(/images/farm-03.png);background-position: left; background-repeat: no-repeat; background-size: 30%;background: position y 0;*****************/
+div#container-sec6 {
+    background-color: #2b2a23;
+    display: grid;
+    position: relative;
+    isolation: isolate;
+}
+
+a#footer-socmed {
+    width: 40px;
+    height: 40px;
+    background-color: #1F1E17;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: none;
+    border-radius: 50%;
+}
+
+/*
+div#container-sec6::after {
+    content: '';
+    position: relative;
+    z-index: -1;
+    inset: 0;
+    background: url(/images/farm-03.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    opacity: 0.1;
+    margin-top: -300px;
+    margin-left: -9px;
+}*/
+img#imgnews {
+    border-radius: 10%;
+}
+
+img#bg {
+    background-size: cover;
+    background-position: left;
+    width: fit-content;
+}
+
+div#col2 {
+    color: white;
+}
+
+a#footer-socmed {
+    color: white;
+}
+
+.lines {
+    width: 100px;
+    height: 20px;
+    position: relative;
+}
+
+.lines::after {
+    content: '';
+    position: absolute;
+    margin-top: auto;
+    height: 5px;
+    border-radius: 100px;
+    background: #4BAF47;
+    width: 5%;
+    top: 30%;
+}
+
+.lines::before {
+    content: '';
+    position: absolute;
+    margin-top: auto;
+    height: 5px;
+    border-radius: 100px;
+    background: #4BAF47;
+    width: 50%;
+    top: 30%;
+}
+
+.lines::before {
+    left: 0;
+}
+
+.lines::after {
+    right: 40px;
+}
+
+img.figure-img.img-fluid.rounded {
+    width: 150px;
+}
+
+img#farm {
+    opacity: 0.03;
+}
+
+figcaption.figure-caption {
+    color: #A5A49A;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+p.mb-2 {
+    color: #A5A49A;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+p.h5.sec5 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+span#date {
+    color: #EEC044;
+}
+
+span#cont {
+    color: #A5A49A;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+p#cont {
+    color: #EEC044;
+}
+
+
+
+/************************    FOOTER    ***************************/
+.footer {
+    background-color: black;
+}
+
+p#cright {
+    color: white;
+}
+
+div#soc-med {
+    color: #787671;
+}
+
+
+
+/************************    MEDIA QUERY    ***************************/
+@media only screen and (max-width: 767px) {
+    div#login {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    h1#h1home {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    p#phome {
+        font-size: 15px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, .7);
+        margin-bottom: 40px;
+    }
+
+    div#slide1-text,
+    div#slide2-text {
+        margin: 0px;
+        padding-left: 50px;
+    }
+
+    img#leaf1 {
+        width: 90px;
+        margin-top: -35px;
+        padding-left: 45px;
+    }
+
+    img#leaf2 {
+        display: flex;
+        margin-top: 10px;
+        margin-left: -4px;
+    }
+
+    button.carousel-control-next,
+    button.carousel-control-prev {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    figure.figure {
+        margin-right: 150px;
+    }
+
+    p#textsec2 {
+        font-size: 28px;
+    }
+        div#contact{
+        text-align: end;
+    }
+}
+@media only screen and  (max-width: 767px) {
+        div#contact,div#map,div#hours{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:1199px){
+    span#day{
+        display: inline-block;
+    }
+}
